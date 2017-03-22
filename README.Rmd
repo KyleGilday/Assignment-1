@@ -26,3 +26,15 @@ head(anscombe)
 
 summary (anscombe)
 ```
+
+
+## time for assignment 3! Let's report these stats
+
+```{r xy_plot, echo=FALSE}
+
+
+
+
+
+
+
