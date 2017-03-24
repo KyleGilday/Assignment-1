@@ -28,11 +28,14 @@ summary (anscombe)
 ```
 
 
-## time for assignment 3! Let's report these stats
+## Time for assignment 3! Let's report these stats
 
-```{r xy_plot, echo=FALSE}
+```{r xy_plot, echo=FALSE, fig.align='center', fig.height=8, fig.width=8, dev='svg', fig.path= '.figures/'}
 
-
+data("anscombe")
+with(anscombe, plot(x1,y1))
+abline(lm(y1~x1, data = anscombe))
+```
 
 
 
